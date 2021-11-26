@@ -1,0 +1,232 @@
+
+
+.maincart{
+    position: absolute;
+    top: 0px;
+    left: 70px;
+    /* background-color: black; */
+    width: 80%;
+    height: 625px;
+    z-index: 1;
+    display: flex;
+}
+
+.maincart::after{
+    z-index: 1;
+}
+
+.carim{
+    height: 100%;
+    width: 50%;
+    background-color: white;
+    z-index: 1;
+
+    
+}
+
+
+
+.carim2{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(165, 159, 159);
+    z-index: -1;
+}
+
+.heat{
+    margin-left: 85%;
+    margin-top: 35px;
+    font-size: 14px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+
+}
+
+.fa-heart{
+    color: palevioletred;
+}
+
+.proimg{
+    margin-left: 20%;
+    margin-top: 80px;
+}
+
+.proimg img{
+    height: 350px;
+    width: 350px;
+}
+
+.divmin{
+    margin-top: 50px;
+    display: flex;
+    font-size: 20px;
+    
+    
+}
+
+.plus{
+    margin-left: 50px;
+    color: blue;
+    cursor: pointer;
+}
+
+.minus{
+    margin-left: 10px;
+    color: blue;
+    cursor: pointer;
+}
+
+.mapp{
+    margin-left: 60%;
+    opacity: .2;
+}
+
+.serccc{
+    margin-left: 20px;
+    opacity: .2;
+}
+
+.detahead{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.livinr{
+
+    margin-left: 30%;
+    font-size: 12px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bolder;
+
+}
+
+.livimg{
+    margin-top: -10px;
+    height: 35px;
+    width: 35px;
+}
+
+.prodd{
+    font-size: 28px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.firti{
+    font-size: 30px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+.firti span{
+    color: blue;
+}
+
+.tides{
+    margin-top: 35px;
+    font-family: 'Lato', sans-serif;
+    opacity: 0.7;
+    line-height: 2px;
+}
+
+.tides1{
+    margin-top: px;
+    font-family: 'Lato', sans-serif;
+    opacity: 0.7;
+    line-height: 50px;
+}
+
+.pprr{
+    display: flex;
+}
+
+
+.title{
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+
+.cost{
+    width: 100px;
+    text-align: center;
+}
+
+.coshed{
+    margin-bottom: 10px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+
+}
+
+.cospri{
+    color: blue;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 900;
+
+}
+
+.cospri span{
+    color: black;
+    text-decoration: line-through;
+    font-size: 12px;
+}
+
+.quaty{
+    margin-left: 20px;
+    background-color: white;
+    border-radius: 20px;
+    width: 60px;
+    height: 20px;
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bolder;
+}
+
+.butt{
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.otherpro{
+    margin-top: 20px;
+    background-color: white;
+    height: 40%;
+    width: 100%;
+    display: flex;
+    z-index: -1;
+    
+
+}
+
+
+.profir{
+    margin: auto;
+}
+
+
+.otherpro img{
+    height: 130px;
+    width: 130px;
+}
+
+.othti{
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.othdes{
+    font-size: 10px;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+
+
+
+

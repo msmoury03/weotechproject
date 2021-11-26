@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(228, 228, 215);
+}
+
+.main{
+    display: flex;
+    z-index: -1;
+}
+
+.header{
+    height: 100%;
+    width: 70px;
+    text-align: center;
+    
+    flex-direction: row;
+    background-color: white;
+}
+
+.logo img{
+    margin-top: 30%;
+    width: 50px;
+    height: 50px;
+}
+
+.home{
+    margin-top: 70%;
+    cursor: pointer;
+
+}
+
+.cart{
+    margin-top: 70%;
+    cursor: pointer;
+
+}
+
+.serch{
+    margin-top: 70%;
+    cursor: pointer;
+
+}
+
+.one{
+    display: flex;
+}
+
+.content{
+    position: absolute;
+    top: 0px;
+    left: 80px;
+    text-align: center;
+    width: 80%;
+    height: 620px;
+}
+
+.text img{
+    height: 350px;
+    width: 500px;
+}
+
+
+
+
+
+
+.logu{
+    margin-top: 301px;
+    padding-bottom: 30px;
+    cursor: pointer;
+
+}
+
+.menu{
+    display: none;
+    margin-top: -46.3%;
+    width: 250px;
+    height: 624px;
+    text-align: right;
+    margin-left: 78%;
+    padding-right: 50px;
+    flex-direction: row;
+    background-color: white;
+    font-family: 'Quicksand', sans-serif;
+    z-index: -1;
+   
+    
+
+}
+.menu1{
+    padding-top: 180px;
+}
+
+.menu2,.menu3,.menu4,.menu5{
+    padding-top: 50px;
+    /* cursor: pointer; */
+}
+
+.menu6{
+    padding-top: 80px;
+    cursor: pointer;    
+}
+
+.showcate{
+    font-weight: bolder;
+    color: blue;
+    cursor: pointer; 
+    text-decoration: none;   
+    
+
+    
+}
+
+
+.hr1{
+    width: 120px;
+    height: 2px;
+    background-color: blue;
+    text-align: center;
+    align-items: center;
+    margin-left: 45%;
+}
+
+
+
+.bmenu{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    color: blue;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 1;
+
+}
+
+.fa-bars{
+    cursor: pointer;
+    font-size: 20px;
+    z-index: 1;
+
+}
+
+
+.bmenu .fa-bars.active::before{
+    content:'\f00d';
+    cursor: pointer;
+    font-size: 25px;
+    
+}
+
+.menu.active{
+    display: block;
+    z-index: 1;
+}
+
+
+
+
+.fa-bars{
+    margin-top: 15px;
+}
+
+
+
+.headi{
+    font-size: 70px;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 50px;
+}
+
+.desc{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.btn{
+    margin-top: 2%;
+    height: 30px;
+    width: 130px;
+    border-radius: 20px;
+    border: none;
+    background-color: blue;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+
+}
+
+.btn:hover{
+    background-color: rgb(29, 29, 214);
+
+}
+
+
+
+
+/* product page css */
+
+
+.product{
+    position: absolute;
+    top: 10px;
+    left: 150px;
+    /* background-color: black; */
+    width: 80%;
+    height: 600px;
+    z-index: 1;
+}
+
+.box{
+    margin-top: 50px;
+    width: 90%;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+   
+
+
+}
+
+.headpro{
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+    margin-left: 27px;
+    margin-top: 10px;
+    
+
+}
+
+
+.f1{
+    background-color: white;
+    height: 40%;
+    width: 20%;
+    border-radius: 2px;
+    text-align: center;
+    margin: 10px;
+
+}
+
+.f2{
+    background-color: white;
+    height: 40%;
+    width: 70%;
+    border-radius: 2px;
+    text-align: center;
+    margin: 10px;
+    
+    
+
+}
+
+.allin{
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.allin img{
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+
+}
+.txt{
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.name{
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bolder;
+
+}
+
+.desss{
+    font-size: 12px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.price{
+    color: blue;
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
+    line-height: 30px;
+    font-size: 15px;
+}
+
+.allin1{
+    display: flex;
+    cursor: pointer;
+}
+
+.allin1 img{
+    height: 220px;
+    width: 300px;
+}
+
+.allin1 .txt{
+    margin-top: 50px;
+}
+
+.allin1 .name{
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+
+.allin1 .desss{
+    font-size: 15px;
+}
+
+.allin1 .price{
+    font-size: 17px;
+    line-height: 77px;
+}
+
+
+.f3{
+    background-color: white;
+    height: 40%;
+    width: 48%;
+    border-radius: 2px;
+    text-align: center;
+    margin: 10px;
+    margin-top: -60px;
+}
+
+.f5{
+    background-color: white;
+    height: 40%;
+    width: 20%;
+    border-radius: 2px;
+    text-align: center;
+    margin: 10px;
+    margin-top: -60px;
+}
+
+.f3 .allin1 img{
+    height: 200px;
+    width: 200px;
+}
+
+.f3 .allin1 .price{
+    line-height: 35px;
+}
+
+.showmre{
+    margin-left: 35%;
+    margin-top: -50px;
+    color: blue;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
